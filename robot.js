@@ -12,7 +12,3 @@ setMessageListener(function(type, data) {
     })
 
 })
-
-
-
-

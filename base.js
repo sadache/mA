@@ -39,7 +39,3 @@ var console = {
     }
 
 }
-
-
-
-
