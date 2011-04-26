@@ -4,7 +4,7 @@ setMessageListener(function(type, data) {
 
     postGame('command', {
         engine: {
-            left: 0,
+            left: 1,
             right: 0
         },
         tower: 0,
@@ -12,5 +12,6 @@ setMessageListener(function(type, data) {
     })
 
 })
+
 
 
