@@ -1,11 +1,11 @@
 setMessageListener(function(type, data) {
 
-    //console.log(data.turn)
+    //console.log(data.others)
 
     postGame('command', {
         engine: {
-            left: 0,
-            right: 0
+            left: 5,
+            right: -3
         },
         tower: 0,
         fire: 0
