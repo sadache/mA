@@ -8,7 +8,7 @@ setMessageListener(function(type, data) {
             right: 0
         },
         tower: 0,
-        fire: 10
+        fire: 0
     })
 
 })
