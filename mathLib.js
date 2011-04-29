@@ -1,4 +1,4 @@
 /**
  * Math utils…
  */
-var PI = Math.PI * 2
+var PI = Math.PI
