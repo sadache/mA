@@ -7,7 +7,7 @@ setMessageListener(function(type, data) {
     postGame('command', {
         status: data.me.energy < 50 ? 'Low energy' : 'Searching opponent',
         engine: {
-            left: 5,
+            left: -5,
             right: 0
         },
         tower: 0,
