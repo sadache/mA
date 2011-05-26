@@ -1,7 +1,7 @@
 setMessageListener(function(type, data) {
     
     console.watch('Y', data.me.position.y)
-    console.watch('X', data.me.position.y)
+    console.watch('X', data.me.position.x)
     console.watch('energy', data.me.energy)
 
     postGame('command', {
